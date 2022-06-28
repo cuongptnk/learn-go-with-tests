@@ -20,3 +20,8 @@ func BenchmarkRepeat(b *testing.B) {
 		Repeat("a", 6)
 	}
 }
+
+func ExampleRepeat() {
+	Repeat("a", 5)
+	// Output: "aaaaa"
+}
