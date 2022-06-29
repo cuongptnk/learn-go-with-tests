@@ -38,7 +38,7 @@ type Triangle struct {
 }
 
 func (t Triangle) Area() float64 {
-	return t.Base * t.Height
+	return t.Base * t.Height * 0.5
 }
 
 // Perimeter implementation is incorrect, just for demo purpose
