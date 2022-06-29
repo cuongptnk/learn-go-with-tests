@@ -9,6 +9,7 @@ func TestPerimeter(t *testing.T) {
 	}{
 		{Rectangle{12, 6}, 36.0},
 		{Circle{10}, 62.83185307179586},
+		{Triangle{12, 6}, 18.0},
 	}
 
 	for _, tt := range perimeterTests {
@@ -27,6 +28,7 @@ func TestArea(t *testing.T) {
 	}{
 		{Rectangle{12, 6}, 72.0},
 		{Circle{10}, 314.1592653589793},
+		{Triangle{12, 6}, 72.0},
 	}
 
 	for _, tt := range areaTests {
